@@ -10,6 +10,7 @@ int make_socket(uint16_t port){
     int sock;
     struct sockaddr_in name;
 
+
     /* 创建字节流类型的IPV4 socket. */
     sock = socket(PF_INET, SOCK_STREAM, 0);
     if (sock < 0) {
@@ -30,7 +31,7 @@ int make_socket(uint16_t port){
     return sock;
 }
 
-int main(int argc, char **argv) {
+/*int main(int argc, char **argv) {
     int sockfd = make_socket(12345);
     exit(0);
-}
+}*/

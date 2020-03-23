@@ -7,7 +7,8 @@
 //下一行 int main() 是主函数，程序从这里开始执行。
 int main(){
     /*我的第一个c程序*/
-    printf("hello world!");
+    printf("hello world!\n");//
+    printf("hello world!\c");//
     return 0;
         //下一行 return 0; 终止 main() 函数，并返回值 0
 };
